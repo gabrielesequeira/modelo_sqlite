@@ -84,15 +84,14 @@ Durante o desenvolvimento do projeto, foram estudados e aplicados os seguintes c
 
 ## 📂 Estrutura do Projeto
 
-/
-├── main.c
-├── MAKEFILE
-├── README
-├── programs/
-│   ├── parser.c
-│   ├── executer.c
-    ├── shell.c
-├── headers/
-│   ├── parser.h
-│   ├── executer.h
-    ├── shell.h
+``` bash
+
+modelo_sqlite/
+├── diagramas
+├── sql/
+│   ├── init.sql
+│   ├── populate.sql
+    ├── queries.sql
+├── rbac.db
+
+```
